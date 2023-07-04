@@ -10,8 +10,8 @@ int main(){
         }
 	cout << v << "\n";
         transform(v.begin(), v.end(), v.begin(), ::tolower);
-	int left = 0; 
-	int right = v.size()-1; 
+	int left = 0;
+	int right = v.size()-1;
 	cout << v << "\n";
 	bool ans = true;
 	while(left < right){
@@ -22,7 +22,7 @@ int main(){
 		}
             left++;
             right--;
-        }	
+        }
 	cout << ans <<"\n";
        	return 0;
 }
